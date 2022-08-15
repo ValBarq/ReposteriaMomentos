@@ -1,0 +1,28 @@
+{
+    "productos": [
+        {
+            "imagen": "assets/img/Producto/Pastahojaldre.jpg",
+            "nombre": "Pasta de hojaldre",
+            "ingredientes":" ",
+            "cantidades": "1½ Kg  y 2 kg"
+        },
+        {
+            "imagen": "assets/img/Producto/Dulceleche.jpg",
+            "nombre": "Dulce de leche",
+            "ingredientes":" ",
+            "cantidades": "½ Kg, 1 Kg y 1 ½ Kg"
+        },
+        {
+            "imagen": "assets/img/Producto/Mermeladas.jpg",
+            "nombre": "Mermeladas",
+            "ingredientes": "Mora, fresa, Maracuyá y Melocotón",
+            "cantidades": "½ Kg, 1 Kg y 1 ½ Kg"
+        },
+        {
+            "imagen": "assets/img/Producto/Premesclaz.jpg",
+            "nombre": "Premezclas",
+            "ingredientes": "Vainilla y Chocolate",
+            "cantidades": "1 Kg"
+        }
+    ]
+}
