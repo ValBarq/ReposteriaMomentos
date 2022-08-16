@@ -161,7 +161,7 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #fff;
+    background:  #f0e2cdf8;
     box-shadow: 0px 0px 30px var(--color-default);
     transition: 0.3s;
     border-radius: 4px;
@@ -235,7 +235,7 @@ section {
     right: -100%;
     width: 100%;
     max-width: 400px;
-    border-left: 1px solid var(--color-primary);
+    border-left: 1px solid var(--color-secondary);
     bottom: 0;
     transition: 0.3s;
     z-index: 9997;
@@ -246,7 +246,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(255, 255, 255, 0.9);
+    background:  #f0e2cdf8;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -259,10 +259,10 @@ section {
     justify-content: space-between;
     padding: 10px 20px;
     font-family: var(--font-secondary);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
-    font-size: 16px;
+    border-bottom: 2px solid var(--color-secondary);
+    font-size: 14px;
     font-weight: 600;
-    color: var(--color-secondary);
+    color: var(--color-primary);
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -276,13 +276,13 @@ section {
 
   .navbar a:hover,
   .navbar li:hover>a {
-    color: #000;
+    color: var(--color-primary);
   }
 
   .navbar .active,
   .navbar .active:focus {
-    color: #000;
-    border-color: var(--color-primary);
+    color: var(--color-pink);
+    border-color: var(--color-secondary);
   }
 
   .navbar .dropdown ul,
@@ -292,7 +292,7 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid var(--pink2);
+    border: 1px solid var(--color-secondary);
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -301,7 +301,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: var(--color-secondary);
+    color: var(--color-pink);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
@@ -311,7 +311,7 @@ section {
   }
 
   .mobile-nav-hide {
-    color: black;
+    color: var(--color-primary);
     font-size: 32px;
     cursor: pointer;
     line-height: 0;
@@ -334,7 +334,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background:  #f0e2cdf8;
     z-index: 9996;
   }
 }
@@ -621,18 +621,11 @@ margin-top: 5px;
 .autor{
   padding-top: 0.9%;
   margin: 12.5%;
-  border: 3px solid #f0e2cdf8;
-  border-radius: 6px ;
 }
-.autor img{
-  padding: 0.9%;
-  margin-top: 2%;
-}
-@media (max-weight:1000px){
-  .autor img{
-    padding: 0.9%;
-    margin-top: 2%;
-  }
+
+.foto1{
+  width: 100%;
+  height: auto;
 }
 /*--------------------------------------------------------------
 # Pagina de Producto
@@ -650,11 +643,13 @@ margin-top: 5px;
 # Pagina de Acerca de nosotros
 --------------------------------------------------------------*/
 .acercade {
-  padding: 80px 0;
-  margin-bottom: 9vh;
-  margin-top: 5%;
+  min-height: 60vh;
+  padding-top: 7%;
+  padding-bottom: 0px;
+  width: 100%;
+  margin-top: 4vh;
 }
-.acercade h3 {
+.datos h3 {
   font-weight: 400;
   font-size: 34px;
   margin-bottom: 30px;
@@ -664,11 +659,7 @@ margin-top: 5px;
   border-radius: 6px ;
   text-align: center;
 }
-.acercade .content p:last-child {
+.datos .content p:last-child {
   margin-bottom: 0;
   font-family: var(--font-primary);
 }
-.acercade .video{
-  margin: 12%;
-}
-
