@@ -666,7 +666,7 @@ margin-top: 5px;
 /*--------------------------------------------------------------
 # Pagina de fORMULARIO
 --------------------------------------------------------------*/
-#formularios{
+.formulario{
   min-height: 60vh;
   padding-top:7%;
   padding-bottom: 0px;
